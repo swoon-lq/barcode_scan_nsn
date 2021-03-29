@@ -33,6 +33,8 @@ class ScanOptions {
       "cancel": "Cancel",
       "flash_on": "Flash on",
       "flash_off": "Flash off",
+      "switch": "Switch",
+      "icon": "true",
     },
   })  : assert(restrictFormat != null),
         assert(useCamera != null),

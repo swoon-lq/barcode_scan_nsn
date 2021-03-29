@@ -20,6 +20,8 @@ class BarcodeScannerViewController: UIViewController {
       "cancel" : "Cancel",
       "flash_on" : "Flash on",
       "flash_off" : "Flash off",
+      "switch": "Switch",
+      "icon": "",
     ]
     $0.useCamera = -1 // Default camera
     $0.autoEnableFlash = false
@@ -49,6 +51,10 @@ class BarcodeScannerViewController: UIViewController {
     return device != nil && (device?.flashMode == AVCaptureDevice.FlashMode.on || device?.torchMode == .on)
   }
 
+  private var buttonText: Bool {
+      return config.strings["icon"] != nil && (config.strings["icon"] != "true")
+  }
+
   private var hasTorch: Bool {
     return device?.hasTorch ?? false
   }
@@ -75,16 +81,23 @@ class BarcodeScannerViewController: UIViewController {
                                   previewView: previewView
       )
     }
+
+    if buttonText {
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: config.strings["cancel"],
+                                                            style: .plain,
+                                                            target: self,
+                                                            action: #selector(cancel))
+    } else {
+        self.navigationController!.navigationBar.barStyle = .black
+        self.navigationController!.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+        self.title = config.strings["title"]
     
-    self.navigationController!.navigationBar.barStyle = .black
-    self.navigationController!.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
-    self.title = config.strings["title"]
+        let closeButton = UIButton(type: .custom)
+        closeButton.setImage(UIImage(named: "ic_close"), for: .normal)
+        closeButton.addTarget(self, action: #selector(cancel), for: .touchUpInside)
     
-    let closeButton = UIButton(type: .custom)
-    closeButton.setImage(UIImage(named: "ic_close"), for: .normal)
-    closeButton.addTarget(self, action: #selector(cancel), for: .touchUpInside)
-    
-    navigationItem.leftBarButtonItem = UIBarButtonItem(customView: closeButton)
+        navigationItem.leftBarButtonItem = UIBarButtonItem(customView: closeButton)
+    }
 
     updateMenuButtons()
   }
@@ -192,23 +205,31 @@ class BarcodeScannerViewController: UIViewController {
   }
 
   private func updateMenuButtons() {
-    let buttonFlash = UIButton(type: .custom)
-    if isFlashOn {
-        buttonFlash.setImage(UIImage(named: "ic_flash_off"), for: .normal)
+    if buttonText {
+      let buttonText = isFlashOn ? config.strings["flash_off"] : config.strings["flash_on"]
+      let btnFlash = UIBarButtonItem(title: buttonText, style: .plain, target: self, action: #selector(onToggleFlash))
+      let btnSwitch = UIBarButtonItem(title: "Switch", style: .plain, target: self, action: #selector(switchCamera))
+
+      self.navigationItem.setRightBarButtonItems([btnFlash, btnSwitch], animated: true)
     } else {
-        buttonFlash.setImage(UIImage(named: "ic_flash_on"), for: .normal)
+      let buttonFlash = UIButton(type: .custom)
+      if isFlashOn {
+          buttonFlash.setImage(UIImage(named: "ic_flash_off"), for: .normal)
+      } else {
+          buttonFlash.setImage(UIImage(named: "ic_flash_on"), for: .normal)
+      }
+      buttonFlash.addTarget(self, action: #selector(onToggleFlash), for: .touchUpInside)
+      buttonFlash.contentEdgeInsets = UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8)
+      let barButtonFlash = UIBarButtonItem(customView: buttonFlash)
+
+      let buttonSwitch = UIButton(type: .custom)
+      buttonSwitch.setImage(UIImage(named: "ic_switch"), for: .normal)
+      buttonSwitch.addTarget(self, action: #selector(switchCamera), for: .touchUpInside)
+      buttonSwitch.contentEdgeInsets = UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 2)
+      let barButtonSwitch = UIBarButtonItem(customView: buttonSwitch)
+
+      self.navigationItem.setRightBarButtonItems([barButtonSwitch, barButtonFlash], animated: true)
     }
-    buttonFlash.addTarget(self, action: #selector(onToggleFlash), for: .touchUpInside)
-    buttonFlash.contentEdgeInsets = UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8)
-    let barButtonFlash = UIBarButtonItem(customView: buttonFlash)
-        
-    let buttonSwitch = UIButton(type: .custom)
-    buttonSwitch.setImage(UIImage(named: "ic_switch"), for: .normal)
-    buttonSwitch.addTarget(self, action: #selector(switchCamera), for: .touchUpInside)
-    buttonSwitch.contentEdgeInsets = UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 2)
-    let barButtonSwitch = UIBarButtonItem(customView: buttonSwitch)
-    
-    self.navigationItem.setRightBarButtonItems([barButtonSwitch, barButtonFlash], animated: true)
   }
   
   private func setFlashState(_ on: Bool) {
