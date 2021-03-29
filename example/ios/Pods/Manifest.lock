@@ -23,7 +23,7 @@ EXTERNAL SOURCES:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  barcode_scan_ragic: 65e0f10ccff6920a69dffb0463f3f918ed6cb5a8
+  barcode_scan_ragic: b25b21dae802fc97825a5566c53737d630248cfb
   Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
   MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
   SwiftProtobuf: 3320217e9d8fb75f36b40282e78c482640fd75dd

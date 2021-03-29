@@ -248,6 +248,7 @@ class _MyAppState extends State<_MyApp> {
           "cancel": _cancelController.text,
           "flash_on": _flashOnController.text,
           "flash_off": _flashOffController.text,
+          "icon": "false",
         },
         restrictFormat: selectedFormats,
         useCamera: _selectedCamera,

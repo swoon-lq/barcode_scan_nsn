@@ -82,7 +82,7 @@ class BarcodeScannerViewController: UIViewController {
       )
     }
 
-    if buttonText {
+    if config.strings["icon"] != "true" {
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: config.strings["cancel"],
                                                             style: .plain,
                                                             target: self,
@@ -205,7 +205,7 @@ class BarcodeScannerViewController: UIViewController {
   }
 
   private func updateMenuButtons() {
-    if buttonText {
+    if config.strings["icon"] != "true" {
       let buttonText = isFlashOn ? config.strings["flash_off"] : config.strings["flash_on"]
       let btnFlash = UIBarButtonItem(title: buttonText, style: .plain, target: self, action: #selector(onToggleFlash))
       let btnSwitch = UIBarButtonItem(title: "Switch", style: .plain, target: self, action: #selector(switchCamera))
