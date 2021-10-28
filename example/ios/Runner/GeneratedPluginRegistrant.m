@@ -4,10 +4,10 @@
 
 #import "GeneratedPluginRegistrant.h"
 
-#if __has_include(<barcode_scan_ragic/BarcodeScanPlugin.h>)
-#import <barcode_scan_ragic/BarcodeScanPlugin.h>
+#if __has_include(<barcode_scan_nsn/BarcodeScanPlugin.h>)
+#import <barcode_scan_nsn/BarcodeScanPlugin.h>
 #else
-@import barcode_scan_ragic;
+@import barcode_scan_nsn;
 #endif
 
 @implementation GeneratedPluginRegistrant

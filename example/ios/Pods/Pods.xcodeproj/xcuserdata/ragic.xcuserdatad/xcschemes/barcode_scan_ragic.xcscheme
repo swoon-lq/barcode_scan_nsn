@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "228DB4248362028ECEA86AFC0B65B436"
-               BuildableName = "barcode_scan_ragic.framework"
-               BlueprintName = "barcode_scan_ragic"
+               BuildableName = "barcode_scan_nsn.framework"
+               BlueprintName = "barcode_scan_nsn"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

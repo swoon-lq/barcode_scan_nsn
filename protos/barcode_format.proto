@@ -1,6 +1,6 @@
 syntax = "proto3";
-package ragic.barcode_scan;
-option java_package = "ragic.barcode_scan";
+package nsn.barcode_scan;
+option java_package = "nsn.barcode_scan";
 
 enum BarcodeFormat {
     unknown = 0;

@@ -34,7 +34,7 @@
 		1667545B3C6C4A9BEEDB2B1DD52C3B51 /* JSONEncodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A0A0BA2D3E640B1A81CC6D0E1185A /* JSONEncodingOptions.swift */; };
 		17522453652B4ACFB0D5179A78FEBC0E /* SwiftBarcodeScanPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F68A65C57F4D14DF6DB31244CA746D /* SwiftBarcodeScanPlugin.swift */; };
 		17856D609DF76F4C9DA82477EF3CE766 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84E3F5BC4E666D2ADD8DFA255F23CF3 /* Data+Extensions.swift */; };
-		17E357CBF2884ED63840CF81CD7B6A70 /* barcode_scan_ragic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06000AFBE07C2B4289649485EC1DFC5C /* barcode_scan_ragic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17E357CBF2884ED63840CF81CD7B6A70 /* barcode_scan_nsn-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06000AFBE07C2B4289649485EC1DFC5C /* barcode_scan_nsn-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		189A13EB585BEB2ED4DF0D57C520CC3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A267B64B68081CE86A62F8B73E1D99 /* Foundation.framework */; };
 		1B33F8C0C76FEEF9C0897A9B8933813E /* ExtensionFieldValueSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA69521B7423DBB502882C1DB9C58C2B /* ExtensionFieldValueSet.swift */; };
 		1CD303D725DF01526EB2DB0D038D1769 /* field_mask.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E47C444415D199C8A49E6433BBA88A /* field_mask.pb.swift */; };
@@ -73,7 +73,7 @@
 		6D7A08CFC5ABEA5BBAB4FAD9AB82DE85 /* TextFormatEncodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B513C5F580A5EA12BC1E58061E19993 /* TextFormatEncodingOptions.swift */; };
 		77BA27F189B11EAF03CFFA2A66F99B2F /* MTBBarcodeScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB1C3D39EB7E1B5F7CC6784D0047D1A /* MTBBarcodeScanner.framework */; };
 		7D50CE64634D4DF328640D064D8FE5FA /* BinaryEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2998929BE5B5BE3CB79F13A84489C46 /* BinaryEncodingVisitor.swift */; };
-		8141FF0CD60BCF78B97FF183D9E08087 /* barcode_scan_ragic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7776817E5A5BA83E9B6ADC798FAA2F /* barcode_scan_ragic-dummy.m */; };
+		8141FF0CD60BCF78B97FF183D9E08087 /* barcode_scan_nsn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7776817E5A5BA83E9B6ADC798FAA2F /* barcode_scan_nsn-dummy.m */; };
 		82F0685CF62C6D9E6234DD65D79C6593 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3B8540CE5CCAA70A044989E1590411 /* StringUtils.swift */; };
 		834B6F685387A3AA2F389D55257FE2FB /* descriptor.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D524320A6CEF1A8CD59848AA04F080D /* descriptor.pb.swift */; };
 		84772D21BBC56F2DDFB335480753728D /* Google_Protobuf_Duration+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0958D0171C934674922E65CD85B0AC3 /* Google_Protobuf_Duration+Extensions.swift */; };
@@ -149,7 +149,7 @@
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 228DB4248362028ECEA86AFC0B65B436;
-			remoteInfo = barcode_scan_ragic;
+			remoteInfo = barcode_scan_nsn;
 		};
 		A9E133290495408D8AAFFC6C773A1CB5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -185,10 +185,10 @@
 		03633EB84AC57D972DE7C4D49370A79C /* BinaryEncodingError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryEncodingError.swift; path = Sources/SwiftProtobuf/BinaryEncodingError.swift; sourceTree = "<group>"; };
 		04671AEAD625D556002B41C25FD1BC1E /* ZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZigZag.swift; path = Sources/SwiftProtobuf/ZigZag.swift; sourceTree = "<group>"; };
 		054DFBAA41CBEAE0B29F878534226DEC /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = Sources/SwiftProtobuf/Decoder.swift; sourceTree = "<group>"; };
-		06000AFBE07C2B4289649485EC1DFC5C /* barcode_scan_ragic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "barcode_scan_ragic-umbrella.h"; sourceTree = "<group>"; };
+		06000AFBE07C2B4289649485EC1DFC5C /* barcode_scan_nsn-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "barcode_scan_nsn-umbrella.h"; sourceTree = "<group>"; };
 		06AF85AA81FA5C1A676F16AE8636DECA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		07FC49AB14F309B90784DE3D5BF78497 /* api.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = api.pb.swift; path = Sources/SwiftProtobuf/api.pb.swift; sourceTree = "<group>"; };
-		088F503AC3EB7B2ECB487EB6007A5D68 /* barcode_scan_ragic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = barcode_scan_ragic.release.xcconfig; sourceTree = "<group>"; };
+		088F503AC3EB7B2ECB487EB6007A5D68 /* barcode_scan_nsn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = barcode_scan_nsn.release.xcconfig; sourceTree = "<group>"; };
 		08B9A89F14463727A8519AAC6F740CC3 /* MTBBarcodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTBBarcodeScanner-prefix.pch"; sourceTree = "<group>"; };
 		0D524320A6CEF1A8CD59848AA04F080D /* descriptor.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = descriptor.pb.swift; path = Sources/SwiftProtobuf/descriptor.pb.swift; sourceTree = "<group>"; };
 		111A370EC831F5699641B910BDC2B55A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../LICENSE; sourceTree = "<group>"; };
@@ -227,11 +227,11 @@
 		52516E54636E95412D125DA1EFECB259 /* Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internal.swift; path = Sources/SwiftProtobuf/Internal.swift; sourceTree = "<group>"; };
 		5755BAA1316F72CF44992BEBFF4521C1 /* CustomJSONCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomJSONCodable.swift; path = Sources/SwiftProtobuf/CustomJSONCodable.swift; sourceTree = "<group>"; };
 		5C484CD90ECC9D31F00E265FC116993B /* ExtensionMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionMap.swift; path = Sources/SwiftProtobuf/ExtensionMap.swift; sourceTree = "<group>"; };
-		5C995177F0FC4ECD23D6D63684DFB36F /* barcode_scan_ragic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "barcode_scan_ragic-Info.plist"; sourceTree = "<group>"; };
+		5C995177F0FC4ECD23D6D63684DFB36F /* barcode_scan_nsn-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "barcode_scan_nsn-Info.plist"; sourceTree = "<group>"; };
 		5F6A3FEFFC651A1795F641F95CECFC49 /* duration.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = duration.pb.swift; path = Sources/SwiftProtobuf/duration.pb.swift; sourceTree = "<group>"; };
 		600C9919F7F14A85C1DFF33D8C232248 /* BarcodeScanPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarcodeScanPlugin.m; path = ../../../../../../../ios/Classes/BarcodeScanPlugin.m; sourceTree = "<group>"; };
 		64789FDFC0D981B8134602D192916D17 /* ScannerOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerOverlay.swift; path = ../../../../../../../ios/Classes/ScannerOverlay.swift; sourceTree = "<group>"; };
-		64925F5D84717D459C81F0C8C0F1D267 /* barcode_scan_ragic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "barcode_scan_ragic-prefix.pch"; sourceTree = "<group>"; };
+		64925F5D84717D459C81F0C8C0F1D267 /* barcode_scan_nsn-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "barcode_scan_nsn-prefix.pch"; sourceTree = "<group>"; };
 		65A44A64627897EAC6F98B2E204BEC1F /* JSONDecodingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecodingOptions.swift; path = Sources/SwiftProtobuf/JSONDecodingOptions.swift; sourceTree = "<group>"; };
 		66066EB44EEF809E0E636824AB374866 /* Google_Protobuf_Timestamp+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Timestamp+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Timestamp+Extensions.swift"; sourceTree = "<group>"; };
 		669E8F25E1897672BDB80B7EB784DA24 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Runner.framework; path = "Pods-Runner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,10 +241,10 @@
 		6DE63EE87644B307EA362DC0AED4A421 /* JSONEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncoder.swift; path = Sources/SwiftProtobuf/JSONEncoder.swift; sourceTree = "<group>"; };
 		6E6EAD13B7F370CC1CF0A5E67B24B893 /* FieldTag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldTag.swift; path = Sources/SwiftProtobuf/FieldTag.swift; sourceTree = "<group>"; };
 		6FD4AD4AD6B6A137AF882A6F01DA3ADD /* Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Sources/SwiftProtobuf/Message.swift; sourceTree = "<group>"; };
-		7283A0799A9119BFADBFA1495885AEDF /* barcode_scan_ragic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = barcode_scan_ragic.podspec; path = ../../../../../../ios/barcode_scan_ragic.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7283A0799A9119BFADBFA1495885AEDF /* barcode_scan_nsn.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = barcode_scan_nsn.podspec; path = ../../../../../../ios/barcode_scan_nsn.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7A726E560BAF7283D992F2D33F767B98 /* Message+JSONAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Message+JSONAdditions.swift"; path = "Sources/SwiftProtobuf/Message+JSONAdditions.swift"; sourceTree = "<group>"; };
 		7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
-		7D7776817E5A5BA83E9B6ADC798FAA2F /* barcode_scan_ragic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "barcode_scan_ragic-dummy.m"; sourceTree = "<group>"; };
+		7D7776817E5A5BA83E9B6ADC798FAA2F /* barcode_scan_nsn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "barcode_scan_nsn-dummy.m"; sourceTree = "<group>"; };
 		7D7BBDE46D55C83DA18CA114AF113BEC /* AnyMessageStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyMessageStorage.swift; path = Sources/SwiftProtobuf/AnyMessageStorage.swift; sourceTree = "<group>"; };
 		7DF681732BFA073C9A76EF535E167B38 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
 		7FC72B5B41B98047AA7BDF33028C84E3 /* struct.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = struct.pb.swift; path = Sources/SwiftProtobuf/struct.pb.swift; sourceTree = "<group>"; };
@@ -252,7 +252,7 @@
 		841BE43CE4A24C9FB276AC81EAE0BD4F /* MathUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MathUtils.swift; path = Sources/SwiftProtobuf/MathUtils.swift; sourceTree = "<group>"; };
 		8568A62D3E26C92B1B7AED56F3877A10 /* BarcodeScanPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarcodeScanPlugin.h; path = ../../../../../../../ios/Classes/BarcodeScanPlugin.h; sourceTree = "<group>"; };
 		87A267B64B68081CE86A62F8B73E1D99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		88C2B81D8E27424B7395400AC70D0393 /* barcode_scan_ragic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = barcode_scan_ragic.framework; path = barcode_scan_ragic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C2B81D8E27424B7395400AC70D0393 /* barcode_scan_nsn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = barcode_scan_nsn.framework; path = barcode_scan_nsn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A50184D0F1CA44BC3D1E79EB0C75419 /* MTBBarcodeScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTBBarcodeScanner.modulemap; sourceTree = "<group>"; };
 		8A702C721241EB6EF1BCA4C232FFD4B5 /* ProtobufMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProtobufMap.swift; path = Sources/SwiftProtobuf/ProtobufMap.swift; sourceTree = "<group>"; };
 		8A90A7097AE53FEE51CD818AFCBBBBF6 /* protos.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = protos.pb.swift; path = ../../../../../../../../ios/Classes/protos/protos.pb.swift; sourceTree = "<group>"; };
@@ -262,7 +262,7 @@
 		94C7EE3457FBD030FD75B8EA42C537AD /* SwiftProtobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftProtobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		965164023791FFAE3C83FB7CCB60E9C2 /* HashVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HashVisitor.swift; path = Sources/SwiftProtobuf/HashVisitor.swift; sourceTree = "<group>"; };
 		96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Runner-umbrella.h"; sourceTree = "<group>"; };
-		974E8E28DC49DA096DAC73BCE676D3CA /* barcode_scan_ragic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = barcode_scan_ragic.modulemap; sourceTree = "<group>"; };
+		974E8E28DC49DA096DAC73BCE676D3CA /* barcode_scan_nsn.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = barcode_scan_nsn.modulemap; sourceTree = "<group>"; };
 		97FE495B2E57B507CEA9055CDBB3F3B0 /* TextFormatDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatDecoder.swift; path = Sources/SwiftProtobuf/TextFormatDecoder.swift; sourceTree = "<group>"; };
 		9B513C5F580A5EA12BC1E58061E19993 /* TextFormatEncodingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatEncodingOptions.swift; path = Sources/SwiftProtobuf/TextFormatEncodingOptions.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -287,7 +287,7 @@
 		C0A40C11F14574B747EF35FE2E520EB1 /* MTBBarcodeScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTBBarcodeScanner.debug.xcconfig; sourceTree = "<group>"; };
 		C192776A0126F3EEBE9B4302E9929CBE /* WireFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WireFormat.swift; path = Sources/SwiftProtobuf/WireFormat.swift; sourceTree = "<group>"; };
 		C2998929BE5B5BE3CB79F13A84489C46 /* BinaryEncodingVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryEncodingVisitor.swift; path = Sources/SwiftProtobuf/BinaryEncodingVisitor.swift; sourceTree = "<group>"; };
-		C3E9ADD37073C9F0270FEEEEA0E90C22 /* barcode_scan_ragic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = barcode_scan_ragic.debug.xcconfig; sourceTree = "<group>"; };
+		C3E9ADD37073C9F0270FEEEEA0E90C22 /* barcode_scan_nsn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = barcode_scan_nsn.debug.xcconfig; sourceTree = "<group>"; };
 		C6B02EF4D80552290FE3694BB40EAD80 /* wrappers.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = wrappers.pb.swift; path = Sources/SwiftProtobuf/wrappers.pb.swift; sourceTree = "<group>"; };
 		C6EA98402A94995D022D330B64B5203D /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB383E56C2C0826CA8DCBD8BD0EDA340 /* SelectiveVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectiveVisitor.swift; path = Sources/SwiftProtobuf/SelectiveVisitor.swift; sourceTree = "<group>"; };
@@ -394,7 +394,7 @@
 		36BA606DF37E7F1C2047DB390971EC1D /* plugins */ = {
 			isa = PBXGroup;
 			children = (
-				5D8CB213A2CE9F2EBC1ADADE9C551BF1 /* barcode_scan_ragic */,
+				5D8CB213A2CE9F2EBC1ADADE9C551BF1 /* barcode_scan_nsn */,
 			);
 			name = plugins;
 			path = plugins;
@@ -452,19 +452,19 @@
 		5868083AEC5A1A02CEA8EA955E64F9E0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7283A0799A9119BFADBFA1495885AEDF /* barcode_scan_ragic.podspec */,
+				7283A0799A9119BFADBFA1495885AEDF /* barcode_scan_nsn.podspec */,
 				111A370EC831F5699641B910BDC2B55A /* LICENSE */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		5D8CB213A2CE9F2EBC1ADADE9C551BF1 /* barcode_scan_ragic */ = {
+		5D8CB213A2CE9F2EBC1ADADE9C551BF1 /* barcode_scan_nsn */ = {
 			isa = PBXGroup;
 			children = (
 				7E1C956FE080DA22F0E078D53765A58F /* ios */,
 			);
-			name = barcode_scan_ragic;
-			path = barcode_scan_ragic;
+			name = barcode_scan_nsn;
+			path = barcode_scan_nsn;
 			sourceTree = "<group>";
 		};
 		791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */ = {
@@ -505,7 +505,7 @@
 		8E77ABA6E7E294F5C2F2D877E13F13C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88C2B81D8E27424B7395400AC70D0393 /* barcode_scan_ragic.framework */,
+				88C2B81D8E27424B7395400AC70D0393 /* barcode_scan_nsn.framework */,
 				2AD35495F0539645B05298768B095719 /* MTBBarcodeScanner.framework */,
 				669E8F25E1897672BDB80B7EB784DA24 /* Pods_Runner.framework */,
 				943D347E61A2E181A4FA2CA894307B6E /* SwiftProtobuf.framework */,
@@ -516,16 +516,16 @@
 		ABF72407E2B998D19BE093426089698B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				974E8E28DC49DA096DAC73BCE676D3CA /* barcode_scan_ragic.modulemap */,
-				7D7776817E5A5BA83E9B6ADC798FAA2F /* barcode_scan_ragic-dummy.m */,
-				5C995177F0FC4ECD23D6D63684DFB36F /* barcode_scan_ragic-Info.plist */,
-				64925F5D84717D459C81F0C8C0F1D267 /* barcode_scan_ragic-prefix.pch */,
-				06000AFBE07C2B4289649485EC1DFC5C /* barcode_scan_ragic-umbrella.h */,
-				C3E9ADD37073C9F0270FEEEEA0E90C22 /* barcode_scan_ragic.debug.xcconfig */,
-				088F503AC3EB7B2ECB487EB6007A5D68 /* barcode_scan_ragic.release.xcconfig */,
+				974E8E28DC49DA096DAC73BCE676D3CA /* barcode_scan_nsn.modulemap */,
+				7D7776817E5A5BA83E9B6ADC798FAA2F /* barcode_scan_nsn-dummy.m */,
+				5C995177F0FC4ECD23D6D63684DFB36F /* barcode_scan_nsn-Info.plist */,
+				64925F5D84717D459C81F0C8C0F1D267 /* barcode_scan_nsn-prefix.pch */,
+				06000AFBE07C2B4289649485EC1DFC5C /* barcode_scan_nsn-umbrella.h */,
+				C3E9ADD37073C9F0270FEEEEA0E90C22 /* barcode_scan_nsn.debug.xcconfig */,
+				088F503AC3EB7B2ECB487EB6007A5D68 /* barcode_scan_nsn.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../../../../Pods/Target Support Files/barcode_scan_ragic";
+			path = "../../../../Pods/Target Support Files/barcode_scan_nsn";
 			sourceTree = "<group>";
 		};
 		BD12FD68B76C1006D8829AB35A25A4AC /* .symlinks */ = {
@@ -602,15 +602,15 @@
 			path = MTBBarcodeScanner;
 			sourceTree = "<group>";
 		};
-		EEB451745741679465B7B5E9E2218CE1 /* barcode_scan_ragic */ = {
+		EEB451745741679465B7B5E9E2218CE1 /* barcode_scan_nsn */ = {
 			isa = PBXGroup;
 			children = (
 				4D46060F63DA10DE4A43D9783495A77F /* .. */,
 				5868083AEC5A1A02CEA8EA955E64F9E0 /* Pod */,
 				ABF72407E2B998D19BE093426089698B /* Support Files */,
 			);
-			name = barcode_scan_ragic;
-			path = ../.symlinks/plugins/barcode_scan_ragic/ios;
+			name = barcode_scan_nsn;
+			path = ../.symlinks/plugins/barcode_scan_nsn/ios;
 			sourceTree = "<group>";
 		};
 		F00EF207D0CAF1E1625EE438023F134B /* .. */ = {
@@ -727,7 +727,7 @@
 		F9756F00111A4B29D8FB0E78DC83AB85 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EEB451745741679465B7B5E9E2218CE1 /* barcode_scan_ragic */,
+				EEB451745741679465B7B5E9E2218CE1 /* barcode_scan_nsn */,
 				F6552B112914376DD857335582E3C5A8 /* Flutter */,
 			);
 			name = "Development Pods";
@@ -765,7 +765,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17E357CBF2884ED63840CF81CD7B6A70 /* barcode_scan_ragic-umbrella.h in Headers */,
+				17E357CBF2884ED63840CF81CD7B6A70 /* barcode_scan_nsn-umbrella.h in Headers */,
 				3C821CB9F065078CF3E1672DC8DE7B14 /* BarcodeScanPlugin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -781,9 +781,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		228DB4248362028ECEA86AFC0B65B436 /* barcode_scan_ragic */ = {
+		228DB4248362028ECEA86AFC0B65B436 /* barcode_scan_nsn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0823162A567885817446A2199E399CFF /* Build configuration list for PBXNativeTarget "barcode_scan_ragic" */;
+			buildConfigurationList = 0823162A567885817446A2199E399CFF /* Build configuration list for PBXNativeTarget "barcode_scan_nsn" */;
 			buildPhases = (
 				BF933FD68F670A86F38FD3DA3C53DBE6 /* Headers */,
 				292423DD1CC375AACACB70DC16366CE7 /* Sources */,
@@ -797,9 +797,9 @@
 				50171F0DE5B3DD9A778F9C0284A7CF27 /* PBXTargetDependency */,
 				1FF94A7A3DBBD88DF81C8FF09C966CF9 /* PBXTargetDependency */,
 			);
-			name = barcode_scan_ragic;
-			productName = barcode_scan_ragic;
-			productReference = 88C2B81D8E27424B7395400AC70D0393 /* barcode_scan_ragic.framework */;
+			name = barcode_scan_nsn;
+			productName = barcode_scan_nsn;
+			productReference = 88C2B81D8E27424B7395400AC70D0393 /* barcode_scan_nsn.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
@@ -882,7 +882,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				228DB4248362028ECEA86AFC0B65B436 /* barcode_scan_ragic */,
+				228DB4248362028ECEA86AFC0B65B436 /* barcode_scan_nsn */,
 				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
 				D83CD42EA57F97A225D24BDC7BD6B6F6 /* MTBBarcodeScanner */,
 				8B74B458B450D74B75744B87BD747314 /* Pods-Runner */,
@@ -936,7 +936,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8141FF0CD60BCF78B97FF183D9E08087 /* barcode_scan_ragic-dummy.m in Sources */,
+				8141FF0CD60BCF78B97FF183D9E08087 /* barcode_scan_nsn-dummy.m in Sources */,
 				A05A418E19F39E6147FF0F3F8549A482 /* BarcodeScannerViewController.swift in Sources */,
 				CF6665802EC5AF15DBB2BE2AFDE28D00 /* BarcodeScannerViewControllerDelegate.swift in Sources */,
 				6AD85C801FE05EF69A92F83061BE164D /* BarcodeScanPlugin.m in Sources */,
@@ -1080,8 +1080,8 @@
 		};
 		CC0354F5684C00E63F2ABDF9A91FD3B8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = barcode_scan_ragic;
-			target = 228DB4248362028ECEA86AFC0B65B436 /* barcode_scan_ragic */;
+			name = barcode_scan_nsn;
+			target = 228DB4248362028ECEA86AFC0B65B436 /* barcode_scan_nsn */;
 			targetProxy = 653F56061F1F9B7129C7C1899D24F97E /* PBXContainerItemProxy */;
 		};
 		CC06FC14C33CDE200B12D803DF2F4BFE /* PBXTargetDependency */ = {
@@ -1282,7 +1282,7 @@
 		};
 		234B55D8F65886DF1E4BF3497A76A7AE /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 088F503AC3EB7B2ECB487EB6007A5D68 /* barcode_scan_ragic.release.xcconfig */;
+			baseConfigurationReference = 088F503AC3EB7B2ECB487EB6007A5D68 /* barcode_scan_nsn.release.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1300,19 +1300,19 @@
 					"\"/Users/ragic/Documents/dev/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-x86_64-simulator\"",
 					"$(inherited)",
 				);
-				GCC_PREFIX_HEADER = "Target Support Files/barcode_scan_ragic/barcode_scan_ragic-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/barcode_scan_ragic/barcode_scan_ragic-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/barcode_scan_nsn/barcode_scan_nsn-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/barcode_scan_nsn/barcode_scan_nsn-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/barcode_scan_ragic/barcode_scan_ragic.modulemap";
+				MODULEMAP_FILE = "Target Support Files/barcode_scan_nsn/barcode_scan_nsn.modulemap";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
 					Flutter,
 				);
-				PRODUCT_MODULE_NAME = barcode_scan_ragic;
-				PRODUCT_NAME = barcode_scan_ragic;
+				PRODUCT_MODULE_NAME = barcode_scan_nsn;
+				PRODUCT_NAME = barcode_scan_nsn;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1326,7 +1326,7 @@
 		};
 		2F7753BB2D457E3EF44BBD8C6D5891A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 088F503AC3EB7B2ECB487EB6007A5D68 /* barcode_scan_ragic.release.xcconfig */;
+			baseConfigurationReference = 088F503AC3EB7B2ECB487EB6007A5D68 /* barcode_scan_nsn.release.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1344,19 +1344,19 @@
 					"\"/Users/ragic/Documents/dev/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-x86_64-simulator\"",
 					"$(inherited)",
 				);
-				GCC_PREFIX_HEADER = "Target Support Files/barcode_scan_ragic/barcode_scan_ragic-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/barcode_scan_ragic/barcode_scan_ragic-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/barcode_scan_nsn/barcode_scan_nsn-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/barcode_scan_nsn/barcode_scan_nsn-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/barcode_scan_ragic/barcode_scan_ragic.modulemap";
+				MODULEMAP_FILE = "Target Support Files/barcode_scan_nsn/barcode_scan_nsn.modulemap";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
 					Flutter,
 				);
-				PRODUCT_MODULE_NAME = barcode_scan_ragic;
-				PRODUCT_NAME = barcode_scan_ragic;
+				PRODUCT_MODULE_NAME = barcode_scan_nsn;
+				PRODUCT_NAME = barcode_scan_nsn;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1812,7 +1812,7 @@
 		};
 		DEA9C5FC338237CE08BDEBF4E53A10E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3E9ADD37073C9F0270FEEEEA0E90C22 /* barcode_scan_ragic.debug.xcconfig */;
+			baseConfigurationReference = C3E9ADD37073C9F0270FEEEEA0E90C22 /* barcode_scan_nsn.debug.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1830,19 +1830,19 @@
 					"\"/Users/ragic/Documents/dev/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-x86_64-simulator\"",
 					"$(inherited)",
 				);
-				GCC_PREFIX_HEADER = "Target Support Files/barcode_scan_ragic/barcode_scan_ragic-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/barcode_scan_ragic/barcode_scan_ragic-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/barcode_scan_nsn/barcode_scan_nsn-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/barcode_scan_nsn/barcode_scan_nsn-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/barcode_scan_ragic/barcode_scan_ragic.modulemap";
+				MODULEMAP_FILE = "Target Support Files/barcode_scan_nsn/barcode_scan_nsn.modulemap";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
 					Flutter,
 				);
-				PRODUCT_MODULE_NAME = barcode_scan_ragic;
-				PRODUCT_NAME = barcode_scan_ragic;
+				PRODUCT_MODULE_NAME = barcode_scan_nsn;
+				PRODUCT_NAME = barcode_scan_nsn;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1902,7 +1902,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0823162A567885817446A2199E399CFF /* Build configuration list for PBXNativeTarget "barcode_scan_ragic" */ = {
+		0823162A567885817446A2199E399CFF /* Build configuration list for PBXNativeTarget "barcode_scan_nsn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEA9C5FC338237CE08BDEBF4E53A10E7 /* Debug */,

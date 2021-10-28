@@ -9,7 +9,7 @@ import 'package:flutter/services.dart';
 
 class BarcodeScanRagic {
   static const MethodChannel _channel =
-      const MethodChannel('ragic.barcode_scan');
+      const MethodChannel('nsn.barcode_scan');
 
   static Future<String> get platformVersion async {
     final String version = await _channel.invokeMethod('getPlatformVersion');

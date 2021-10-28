@@ -9,7 +9,7 @@ public class SwiftBarcodeScanPlugin: NSObject, FlutterPlugin, BarcodeScannerView
     private var hostViewController: UIViewController?
     
     public static func register(with registrar: FlutterPluginRegistrar) {
-        let channel = FlutterMethodChannel(name: "ragic.barcode_scan", binaryMessenger: registrar.messenger())
+        let channel = FlutterMethodChannel(name: "nsn.barcode_scan", binaryMessenger: registrar.messenger())
         let instance = SwiftBarcodeScanPlugin()
         instance.hostViewController = UIApplication.shared.delegate?.window??.rootViewController
         registrar.addMethodCallDelegate(instance, channel: channel)

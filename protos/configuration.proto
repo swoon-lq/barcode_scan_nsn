@@ -1,5 +1,5 @@
 syntax = "proto3";
-package ragic.barcode_scan;
+package nsn.barcode_scan;
 import "android_configuration.proto";
 import "barcode_format.proto";
 

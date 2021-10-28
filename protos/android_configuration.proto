@@ -1,6 +1,6 @@
 syntax = "proto3";
-package ragic.barcode_scan;
-option java_package = "ragic.barcode_scan";
+package nsn.barcode_scan;
+option java_package = "nsn.barcode_scan";
 
 message AndroidConfiguration {
     // You can optionally set aspect ratio tolerance level

@@ -1,5 +1,5 @@
-name: barcode_scan_ragic_example
-description: Demonstrates how to use the barcode_scan_ragic plugin.
+name: barcode_scan_nsn_example
+description: Demonstrates how to use the barcode_scan_nsn plugin.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -12,9 +12,9 @@ dependencies:
   flutter:
     sdk: flutter
 
-  barcode_scan_ragic:
+  barcode_scan_nsn:
     # When depending on this package from a real application you should use:
-    #   barcode_scan_ragic: ^x.y.z
+    #   barcode_scan_nsn: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints
     # The example app is bundled with the plugin so we use a path dependency on
     # the parent directory to use the current plugin's version.
@@ -28,7 +28,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  barcode_scan_ragic:
+  barcode_scan_nsn:
     path: ../
   effective_dart: ^1.2.0
 

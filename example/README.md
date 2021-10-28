@@ -1,6 +1,6 @@
-# barcode_scan_ragic_example
+# barcode_scan_nsn_example
 
-Demonstrates how to use the barcode_scan_ragic plugin.
+Demonstrates how to use the barcode_scan_nsn plugin.
 
 ## Getting Started
 

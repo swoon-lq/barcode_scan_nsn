@@ -18,11 +18,11 @@ class BarcodeScanner {
 
   /// The method channel
   static const MethodChannel _channel =
-      MethodChannel('ragic.barcode_scan');
+      MethodChannel('nsn.barcode_scan');
 
   /// The event channel
   static const EventChannel _eventChannel =
-      EventChannel('ragic.barcode_scan/events');
+      EventChannel('nsn.barcode_scan/events');
 
   /// Starts the camera for scanning the barcode, shows a preview window and
   /// returns the barcode if one was scanned.
@@ -39,14 +39,14 @@ class BarcodeScanner {
     var events = _eventChannel.receiveBroadcastStream();
     var completer = Completer<ScanResult>();
 
-    StreamSubscription subscription;
+    StreamSubscription? subscription;
     subscription = events.listen((event) async {
       if (event is String) {
         if (event == cameraAccessGranted) {
-          subscription.cancel();
+          subscription!.cancel();
           completer.complete(await _doScan(options));
         } else if (event == cameraAccessDenied) {
-          subscription.cancel();
+          subscription!.cancel();
           completer.completeError(PlatformException(code: event));
         }
       }
@@ -74,7 +74,7 @@ class BarcodeScanner {
                 ..aspectTolerance = options.android.aspectTolerance
               /**/)
         /**/;
-    var buffer = await _channel.invokeMethod('scan', config?.writeToBuffer());
+    var buffer = await _channel.invokeMethod('scan', config.writeToBuffer());
     var tmpResult = proto.ScanResult.fromBuffer(buffer);
     return ScanResult(
       format: tmpResult.format,
@@ -87,6 +87,6 @@ class BarcodeScanner {
   /// Returns the number of cameras which are available
   /// Use n-1 as the index of the camera which should be used.
   static Future<int> get numberOfCameras {
-    return _channel.invokeMethod('numberOfCameras');
+    return _channel.invokeMethod('numberOfCameras') as Future<int>;
   }
 }

@@ -1,6 +1,6 @@
 //
 //  BarcodeScannerViewControllerDelegate.swift
-//  barcode_scan_ragic
+//  barcode_scan_nsn
 //
 //  Created by Julian Finkler on 20.02.20.
 //

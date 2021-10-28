@@ -1,4 +1,4 @@
-package ragic.barcode_scan
+package nsn.barcode_scan
 
 import android.hardware.Camera
 import androidx.annotation.Keep
@@ -61,7 +61,7 @@ class ChannelHandler(private val activityHelper: ActivityHelper
             stopListening()
         }
 
-        methodChannel = MethodChannel(messenger, "ragic.barcode_scan").apply {
+        methodChannel = MethodChannel(messenger, "nsn.barcode_scan").apply {
             setMethodCallHandler(this@ChannelHandler)
         }
 
@@ -69,7 +69,7 @@ class ChannelHandler(private val activityHelper: ActivityHelper
             stopListening()
         }
 
-        eventChannel = EventChannel(messenger, "ragic.barcode_scan/events").apply {
+        eventChannel = EventChannel(messenger, "nsn.barcode_scan/events").apply {
             setStreamHandler(this@ChannelHandler)
         }
     }

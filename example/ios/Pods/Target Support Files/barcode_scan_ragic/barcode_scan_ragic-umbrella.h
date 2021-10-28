@@ -12,6 +12,6 @@
 
 #import "BarcodeScanPlugin.h"
 
-FOUNDATION_EXPORT double barcode_scan_ragicVersionNumber;
-FOUNDATION_EXPORT const unsigned char barcode_scan_ragicVersionString[];
+FOUNDATION_EXPORT double barcode_scan_nsnVersionNumber;
+FOUNDATION_EXPORT const unsigned char barcode_scan_nsnVersionString[];
 

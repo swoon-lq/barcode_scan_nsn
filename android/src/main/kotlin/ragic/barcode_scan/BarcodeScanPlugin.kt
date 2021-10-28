@@ -1,4 +1,4 @@
-package ragic.barcode_scan
+package nsn.barcode_scan
 
 import androidx.annotation.NonNull
 import androidx.annotation.Nullable

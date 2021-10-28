@@ -2,9 +2,6 @@
 //  Generated code. Do not modify.
 //  source: protos/protos.proto
 //
-// @dart = 2.3
-// ignore_for_file: camel_case_types,non_constant_identifier_names,library_prefixes,unused_import,unused_shown_name,return_of_invalid_type
-
 import 'dart:core' as $core;
 
 import 'package:protobuf/protobuf.dart' as $pb;
@@ -25,7 +22,7 @@ class AndroidConfiguration extends $pb.GeneratedMessage {
   factory AndroidConfiguration.fromBuffer($core.List<$core.int> i, [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) => create()..mergeFromBuffer(i, r);
   factory AndroidConfiguration.fromJson($core.String i, [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) => create()..mergeFromJson(i, r);
   AndroidConfiguration clone() => AndroidConfiguration()..mergeFromMessage(this);
-  AndroidConfiguration copyWith(void Function(AndroidConfiguration) updates) => super.copyWith((message) => updates(message as AndroidConfiguration));
+  AndroidConfiguration copyWith(void Function(AndroidConfiguration) updates) => super.copyWith((message) => updates(message as AndroidConfiguration)) as AndroidConfiguration;
   $pb.BuilderInfo get info_ => _i;
   @$core.pragma('dart2js:noInline')
   static AndroidConfiguration create() => AndroidConfiguration._();
@@ -33,7 +30,7 @@ class AndroidConfiguration extends $pb.GeneratedMessage {
   static $pb.PbList<AndroidConfiguration> createRepeated() => $pb.PbList<AndroidConfiguration>();
   @$core.pragma('dart2js:noInline')
   static AndroidConfiguration getDefault() => _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<AndroidConfiguration>(create);
-  static AndroidConfiguration _defaultInstance;
+  static AndroidConfiguration? _defaultInstance;
 
   @$pb.TagNumber(1)
   $core.double get aspectTolerance => $_getN(0);
@@ -69,7 +66,7 @@ class Configuration extends $pb.GeneratedMessage {
   factory Configuration.fromBuffer($core.List<$core.int> i, [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) => create()..mergeFromBuffer(i, r);
   factory Configuration.fromJson($core.String i, [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) => create()..mergeFromJson(i, r);
   Configuration clone() => Configuration()..mergeFromMessage(this);
-  Configuration copyWith(void Function(Configuration) updates) => super.copyWith((message) => updates(message as Configuration));
+  Configuration copyWith(void Function(Configuration) updates) => super.copyWith((message) => updates(message as Configuration)) as Configuration;
   $pb.BuilderInfo get info_ => _i;
   @$core.pragma('dart2js:noInline')
   static Configuration create() => Configuration._();
@@ -77,7 +74,7 @@ class Configuration extends $pb.GeneratedMessage {
   static $pb.PbList<Configuration> createRepeated() => $pb.PbList<Configuration>();
   @$core.pragma('dart2js:noInline')
   static Configuration getDefault() => _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Configuration>(create);
-  static Configuration _defaultInstance;
+  static Configuration? _defaultInstance;
 
   @$pb.TagNumber(1)
   $core.Map<$core.String, $core.String> get strings => $_getMap(0);
@@ -129,7 +126,7 @@ class ScanResult extends $pb.GeneratedMessage {
   factory ScanResult.fromBuffer($core.List<$core.int> i, [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) => create()..mergeFromBuffer(i, r);
   factory ScanResult.fromJson($core.String i, [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) => create()..mergeFromJson(i, r);
   ScanResult clone() => ScanResult()..mergeFromMessage(this);
-  ScanResult copyWith(void Function(ScanResult) updates) => super.copyWith((message) => updates(message as ScanResult));
+  ScanResult copyWith(void Function(ScanResult) updates) => super.copyWith((message) => updates(message as ScanResult)) as ScanResult;
   $pb.BuilderInfo get info_ => _i;
   @$core.pragma('dart2js:noInline')
   static ScanResult create() => ScanResult._();
@@ -137,7 +134,7 @@ class ScanResult extends $pb.GeneratedMessage {
   static $pb.PbList<ScanResult> createRepeated() => $pb.PbList<ScanResult>();
   @$core.pragma('dart2js:noInline')
   static ScanResult getDefault() => _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<ScanResult>(create);
-  static ScanResult _defaultInstance;
+  static ScanResult? _defaultInstance;
 
   @$pb.TagNumber(1)
   ResultType get type => $_getN(0);

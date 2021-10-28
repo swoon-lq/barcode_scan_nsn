@@ -1,4 +1,4 @@
-package ragic.barcode_scan
+package nsn.barcode_scan
 
 import android.Manifest
 import android.app.Activity

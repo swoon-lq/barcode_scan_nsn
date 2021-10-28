@@ -1,4 +1,4 @@
-# barcode_scan_ragic
+# barcode_scan_nsn
 
 A new Flutter plugin.
 

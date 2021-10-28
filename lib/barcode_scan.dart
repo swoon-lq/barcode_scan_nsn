@@ -1,4 +1,4 @@
-library ragic.barcode_scan;
+library nsn.barcode_scan;
 
 export 'gen/protos/protos.pb.dart' show BarcodeFormat, ResultType;
 

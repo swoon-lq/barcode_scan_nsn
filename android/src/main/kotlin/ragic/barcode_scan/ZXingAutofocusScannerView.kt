@@ -1,4 +1,4 @@
-package ragic.barcode_scan
+package nsn.barcode_scan
 
 import android.content.Context
 import android.hardware.Camera

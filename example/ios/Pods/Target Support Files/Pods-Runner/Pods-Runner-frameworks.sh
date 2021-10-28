@@ -177,17 +177,17 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MTBBarcodeScanner/MTBBarcodeScanner.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/barcode_scan_ragic/barcode_scan_ragic.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/barcode_scan_nsn/barcode_scan_nsn.framework"
 fi
 if [[ "$CONFIGURATION" == "Profile" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MTBBarcodeScanner/MTBBarcodeScanner.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/barcode_scan_ragic/barcode_scan_ragic.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/barcode_scan_nsn/barcode_scan_nsn.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MTBBarcodeScanner/MTBBarcodeScanner.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/barcode_scan_ragic/barcode_scan_ragic.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/barcode_scan_nsn/barcode_scan_nsn.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

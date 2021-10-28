@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:io' show Platform;
 
-import 'package:barcode_scan_ragic/barcode_scan.dart';
-import 'package:barcode_scan_ragic/barcode_scan_ragic.dart';
+import 'package:barcode_scan_nsn/barcode_scan.dart';
+import 'package:barcode_scan_nsn/barcode_scan_nsn.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

@@ -267,7 +267,7 @@ THE SOFTWARE.
 			<string>TODO: Add your license here.
 </string>
 			<key>Title</key>
-			<string>barcode_scan_ragic</string>
+			<string>barcode_scan_nsn</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

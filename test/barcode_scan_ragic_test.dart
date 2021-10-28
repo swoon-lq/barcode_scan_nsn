@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:barcode_scan_ragic/barcode_scan_ragic.dart';
+import 'package:barcode_scan_nsn/barcode_scan_nsn.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('ragic.barcode_scan');
+  const MethodChannel channel = MethodChannel('nsn.barcode_scan');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

@@ -1,7 +1,7 @@
-package ragic.barcode_scan
+package nsn.barcode_scan
 
 import android.content.pm.PackageManager
-import ragic.barcode_scan.ActivityHelper.Companion.REQ_CAMERA_PERMISSION
+import nsn.barcode_scan.ActivityHelper.Companion.REQ_CAMERA_PERMISSION
 import io.flutter.plugin.common.EventChannel
 import io.flutter.plugin.common.PluginRegistry
 

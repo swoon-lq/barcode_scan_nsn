@@ -18,6 +18,7 @@
       <excludeFolder url="file://$MODULE_DIR$/example/ios/.symlinks/plugins/barcode_scan_ragic/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/example/ios/.symlinks/plugins/barcode_scan_ragic/example/build" />
     </content>
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
     <orderEntry type="library" name="Flutter Plugins" level="project" />

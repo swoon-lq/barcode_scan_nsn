@@ -239,7 +239,7 @@ THE SOFTWARE.
     otherwise be required by Sections 4(a), 4(b) and 4(d) of the License.
 
 
-## barcode_scan_ragic
+## barcode_scan_nsn
 
 TODO: Add your license here.
 

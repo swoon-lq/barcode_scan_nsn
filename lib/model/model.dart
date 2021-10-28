@@ -1,4 +1,4 @@
-library ragic.barcode_scan;
+library nsn.barcode_scan;
 
 export 'android_options.dart';
 export 'scan_options.dart';
