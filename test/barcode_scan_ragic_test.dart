@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await BarcodeScanRagic.platformVersion, '42');
+    expect(await BarcodeScanNsn.platformVersion, '42');
   });
 }
