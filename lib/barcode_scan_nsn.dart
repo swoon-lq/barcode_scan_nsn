@@ -7,7 +7,7 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 
-class BarcodeScanRagic {
+class BarcodeScanNsn {
   static const MethodChannel _channel =
       const MethodChannel('nsn.barcode_scan');
 
