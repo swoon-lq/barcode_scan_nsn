@@ -101,7 +101,6 @@ class _MyAppState extends State<_MyApp> {
       ListTile(
         title: TextField(
           decoration: InputDecoration(
-            hasFloatingPlaceholder: true,
             labelText: "Flash On",
           ),
           controller: _flashOnController,
@@ -110,7 +109,6 @@ class _MyAppState extends State<_MyApp> {
       ListTile(
         title: TextField(
           decoration: InputDecoration(
-            hasFloatingPlaceholder: true,
             labelText: "Flash Off",
           ),
           controller: _flashOffController,
@@ -119,7 +117,6 @@ class _MyAppState extends State<_MyApp> {
       ListTile(
         title: TextField(
           decoration: InputDecoration(
-            hasFloatingPlaceholder: true,
             labelText: "Cancel",
           ),
           controller: _cancelController,

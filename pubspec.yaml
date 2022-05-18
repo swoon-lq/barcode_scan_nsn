@@ -23,5 +23,9 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   plugin:
-    androidPackage: nsn.barcode_scan
-    pluginClass: BarcodeScanPlugin
+    platforms:
+      android:
+        package: nsn.barcode_scan
+        pluginClass: BarcodeScanPlugin
+      ios:
+        pluginClass: BarcodeScanPlugin
