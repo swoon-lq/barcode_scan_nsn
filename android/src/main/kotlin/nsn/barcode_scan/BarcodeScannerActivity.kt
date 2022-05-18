@@ -1,6 +1,6 @@
 package nsn.barcode_scan
 
-import android.app.Activity
+import io.flutter.embedding.android.FlutterActivity
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
@@ -9,7 +9,7 @@ import com.google.zxing.BarcodeFormat
 import com.google.zxing.Result
 import me.dm7.barcodescanner.zxing.ZXingScannerView
 
-class BarcodeScannerActivity : Activity(), ZXingScannerView.ResultHandler {
+class BarcodeScannerActivity : FlutterActivity(), ZXingScannerView.ResultHandler {
 
     init {
         title = ""
