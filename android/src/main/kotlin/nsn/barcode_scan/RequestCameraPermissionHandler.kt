@@ -9,8 +9,8 @@ class RequestCameraPermissionHandler(private val sink: EventChannel.EventSink?
 ) : PluginRegistry.RequestPermissionsResultListener {
 
     override fun onRequestPermissionsResult(requestCode: Int,
-                                            permissions: Array<out String>?,
-                                            grantResults: IntArray?
+                                            permissions: Array<out String>,
+                                            grantResults: IntArray
     ): Boolean {
         if (requestCode != REQ_CAMERA_PERMISSION) {
             return false
